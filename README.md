@@ -22,10 +22,11 @@ python -m uvicorn app.main:app --reload --port 8000
 
 ```sh
 cd frontend
-npm install
+npm ci
 npm run dev
-# Альтернатива с lock-файлом: pnpm install --frozen-lockfile && pnpm dev
 ```
+
+Для frontend используйте npm последовательно: не запускайте npm install поверх node_modules, созданного pnpm. При смене менеджера сначала переместите старую папку node_modules в резервную копию.
 
 Откройте <http://localhost:5173>. Swagger: <http://localhost:8000/docs>, ReDoc: <http://localhost:8000/redoc>.
 База SQLite создаётся автоматически в `backend/journal.db`, сохраняется между запусками и не попадает в Git.
@@ -49,7 +50,7 @@ frontend/
   src/main.jsx        три экрана и управление состоянием
   src/style.css       адаптивное оформление
   vite.config.js     proxy /api → localhost:8000
-  pnpm-lock.yaml      зафиксированные зависимости фронтенда
+  package-lock.json   зафиксированные зависимости для npm
  docs/
   lab-1-report.md     отчёт по лабораторной №1
   lab-2-report.md     отчёт по лабораторной №2
