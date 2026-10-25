@@ -1,5 +1,6 @@
 # Отчёт по лабораторной работе №2
 
+Репозиторий проекта: [https://github.com/Shark10000/student-journal](https://github.com/Shark10000/student-journal)
 **Тема:** интеграция REST API с фронтендом на React. **Вариант 2:** студенческий журнал.
 
 ## Цель
@@ -30,7 +31,7 @@ FastAPI CORSMiddleware разрешает `http://localhost:5173` и `http://127
 
 ### Список студентов
 
-![Список студентов](screenshots/01-students.png)
+![Список студентов](screenshots/07-students-safari.png)
 
 ### Добавление студента
 
@@ -38,7 +39,7 @@ FastAPI CORSMiddleware разрешает `http://localhost:5173` и `http://127
 
 ### Оценки и средний балл
 
-![Карточка студента](screenshots/03-student-details.png)
+![Карточка студента](screenshots/08-details-safari.png)
 
 ### Фильтрация по группе
 

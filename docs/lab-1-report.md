@@ -1,5 +1,6 @@
 # Отчёт по лабораторной работе №1
 
+Репозиторий проекта: [https://github.com/Shark10000/student-journal](https://github.com/Shark10000/student-journal)
 **Тема:** разработка REST API. **Вариант 2:** API студенческого журнала.
 
 ## Цель
@@ -29,3 +30,9 @@ Swagger UI `/docs`, ReDoc `/redoc` и спецификация `/openapi.json` �
 ## Вывод
 
 Разработано работающее REST API студенческого журнала. Все условия лабораторной выполнены: Python, FastAPI, БД, модели, CRUD, более семи операций, агрегация, валидация, сортировка, пагинация и документация.
+
+## Скриншоты документации API
+
+![ReDoc](screenshots/06-redoc-safari.png)
+
+![Swagger UI](screenshots/09-swagger-safari.png)
